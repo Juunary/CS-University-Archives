@@ -28,4 +28,3 @@ Low-level system interactions and protocol design.
 - **Shell**: Developed a custom Linux shell handling pipes and redirection.
 
 ---
-*(C&CPP 폴더는 내용이 너무 기초적이라면(Hello World 수준), 굳이 README 메인에 적지 말고 기타 폴더로 두는 게 낫습니다. "Basics"라는 말은 빼세요!)*
