@@ -1,0 +1,5 @@
+./sim-cache bin/go.little.ss 20 9 inputs/2stone9.in 2> traces/go.trace > results/go.out
+
+./sim-cache bin/m88ksim.little.ss -c < inputs/ctl.raw inputs/dcrand.lit 2> traces/m88ksim.trace > results/m88ksim.out
+
+./sim-cache bin/swim.little.ss < inputs/swim.in 2> traces/swim.trace > results/swim.out
