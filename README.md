@@ -1,40 +1,31 @@
-# CS-University-Archives
+# 💻 Computer Engineering Portfolio (Junewoo Kang)
 
-Archive of key CS coursework at Kwangwoon Univ. Focus on System Programming, OS, and Algorithms using C/C++ & Linux.
+> **Archive of systems engineering projects focusing on OS, Architecture, and Algorithms.**
+> *Key Stack: C/C++, Linux Kernel, Verilog, Python*
 
 ## 📂 Repository Structure
 
-This repository contains source code and projects from various Computer Science courses.
+### [Operating System (Kernel & Simulation)](./Operating_System)
+Deep dive into Linux Kernel internals and resource management.
+- **Kernel Hooking**: Intercepted system calls using `ftrace` and implemented custom modules.
+- **Scheduling**: Designed Priority & Round-Robin schedulers in C.
+- **Virtual Memory**: Simulated LRU/FIFO page replacement policies.
 
-### [C&CPP](./C&CPP)
-Usage of C and C++ programming languages, covering basics to advanced topics.
-- **Weeks 1-6**: Basics, Strings, Arrays, Dynamic Memory, File I/O.
-- **Weeks 7-11**: Structs, Algorithms, Projects, Linked Lists.
+### [Computer Architecture (CPU Design)](./Computer_Architecture)
+RTL design and performance analysis of MIPS processors.
+- **MIPS CPU**: Built Single-Cycle & Multi-Cycle CPUs from scratch using Verilog.
+- **Optimization**: Analyzed **Pipeline Hazards** and implemented a **Forwarding Unit** to replace NOP stalls.
+- **Cache Memory**: Benchmarked AMAT (Average Memory Access Time) using SimpleScalar.
 
-### [Computer Architecture](./Computer_Architecture)
-Design and analysis of computer systems.
-- **Processors**: MU0 Design, MIPS Single-Cycle & Multi-Cycle CPUs.
-- **Analysis**: Pipeline Hazards, Cache Memory Performance.
+### [Data Structures (DB & Engine)](./Data_Structures)
+Implementation of high-performance data storage engines.
+- **Employee DB**: Built an in-memory DB using **B+ Tree** indexing for rapid lookup.
+- **Graph Engine**: Implemented Dijkstra, Kruskal, and Bellman-Ford algorithms for network analysis.
 
-### [Data Structures](./Data_Structures)
-Implementation of fundamental data structures.
-- **Projects**: Music Playlist (BST), Employee DB (B+ Tree), Graph Algorithm Engine.
-
-### [Digital Logic](./Digital_Logic)
-Digital circuit design and logic simulation.
-- **Circuits**: 16-bit Prefix Adder, 12-bit Majority Voter, Sequence Detector FSM.
-
-### [Network](./Network)
-Computer networking protocols and implementations.
-- **Protocols**: Go-Back-N, Selective Repeat.
-
-### [Operating System](./Operating_System)
-Core operating system concepts and implementations.
-- **Kernel**: Compilation, System Call Hooking.
-- **Simulations**: Process Scheduling, Memory Management, File Systems.
-
-### [System Programming](./System_Programming)
-Low-level programming and system interface interactions.
+### [System Programming & Network](./System_Programming)
+Low-level system interactions and protocol design.
+- **Reliable Data Transfer**: Implemented Go-Back-N & Selective Repeat protocols (UDP).
+- **Shell**: Developed a custom Linux shell handling pipes and redirection.
 
 ---
-*Created and maintained for educational archival purposes.*
+*(C&CPP 폴더는 내용이 너무 기초적이라면(Hello World 수준), 굳이 README 메인에 적지 말고 기타 폴더로 두는 게 낫습니다. "Basics"라는 말은 빼세요!)*
