@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/user/Documents/IntelliJ/CS-University-Archives/Operating_System",
-      "program": "c:/Users/user/Documents/IntelliJ/CS-University-Archives/Operating_System/build/Debug/outDebug",
+      "cwd": "c:/Users/user/Documents/IntelliJ/CS-University-Archives/C&CPP/0908",
+      "program": "c:/Users/user/Documents/IntelliJ/CS-University-Archives/C&CPP/0908/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
