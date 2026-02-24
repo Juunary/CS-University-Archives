@@ -1,4 +1,4 @@
-# 💻 Computer Engineering Portfolio (Junewoo Kang)
+# 💻 Computer Engineering Portfolio
 
 > **Archive of systems engineering projects focusing on OS, Architecture, and Algorithms.**
 > *Key Stack: C/C++, Linux Kernel, Verilog, Python*
